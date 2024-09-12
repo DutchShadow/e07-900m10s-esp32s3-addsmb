@@ -79,6 +79,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -130,7 +131,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -443,7 +444,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "e07-900m10s-breakout.kicad_pro",
+    "filename": "e07-900m10s-esp32s3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -536,6 +537,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -647,7 +649,7 @@
   "sheets": [
     [
       "660bcb54-a61d-4805-a42d-3ee9d605b0b6",
-      "Hoofdblad"
+      "Root"
     ]
   ],
   "text_variables": {}
